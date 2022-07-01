@@ -1,0 +1,32 @@
+{
+	"name": "sypets/gridelements-tester",
+	"type": "typo3-cms-extension",
+	"description": "Gridelements tester",
+	"keywords": [
+		"TYPO3 CMS",
+		"TYPO3"
+	],
+	"authors": [
+		{
+			"name": "Sybille Peters",
+			"email": "sypets@gmx.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.4",
+		"typo3/cms-core": "^11.2 || 11.*.*@dev"
+	},
+	"license": "GPL-2.0-or-later",
+	"config": {
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin"
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": ".Build/Web",
+			"extension-key": "gridelements_tester"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+<meta type="array">
+    <langDisable>1</langDisable>
+</meta>
+
+<ROOT>
+    <TCEforms>
+        <sheetTitle>Einstellungen</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+    <el>
+        <cssclass>
+            <TCEforms type="array">
+                <label>CSS-Klasse vergeben</label>
+                <config>
+                    <type>input</type>
+                    <size>20</size>
+                    <max>30</max>
+                    <eval>trim</eval>
+                </config>
+            </TCEforms>
+        </cssclass>
+    </el>
+</ROOT>
+</T3DataStructure>
+

@@ -1,0 +1,487 @@
+# gridelements: Additional BE-Layouts
+# ---------------------------------------------------
+#
+# Quelle: https://gist.github.com/Merec/7061971
+# https://www.merec.org/typo3/bootstrap3-tabs-mit-grid-elements-fuer-typo3
+#
+
+tx_gridelements.setup {
+
+  # -----------------
+  # 2-spaltig (50/50)
+  # -----------------
+  # col2
+  # identifier ist uid, ggf. in sprechende Bezeichner aendern
+  1 {
+    title = 2-spaltig (50/50)
+    description =
+    icon =
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+
+    config {
+      colCount = 2
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # --------------------
+  # 3-spaltig (33/33/33)
+  # --------------------
+  # col3
+  2 {
+    title = 3-spaltig (33/33/33)
+    description =
+    icon =
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+
+    config {
+      colCount = 3
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+            3 {
+              name = Spalte 3
+              colPos = 12
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # -----------------------
+  # 4-spaltig (25/25/25/25)
+  # -----------------------
+  3 {
+    title = 4-spaltig (25/25/25/25)
+    description =
+    icon =
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+
+    config {
+      colCount = 4
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+            3 {
+              name = Spalte 3
+              colPos = 12
+            }
+            4 {
+              name = Spalte 4
+              colPos = 13
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # -----------------
+  # 2-spaltig (60/40)
+  # -----------------
+  4 {
+    title = 2-spaltig (60/40)
+    description =
+    icon =
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+
+    config {
+      colCount = 2
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # --------------------
+  # 3-spaltig (60/20/20)
+  # --------------------
+  5 {
+    title = 3-spaltig (60/20/20)
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+    config {
+      colCount = 3
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+            3 {
+              name = Spalte 3
+              colPos = 12
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # ---------
+  # 1-spaltig
+  # ----------
+  6 {
+    title = 1-spaltig
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+    config {
+      colCount = 1
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Inhalt
+              colPos = 10
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # -----------------
+  # 2-spaltig (15/85)
+  # -----------------
+  7 {
+    title = 2-spaltig (15/85)
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+    config {
+      colCount = 2
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # ---------
+  # Fullwidth
+  # ---------
+  8 {
+    title = Fullwidth
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+    config {
+      colCount = 1
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Fullwidth
+              colPos = 10
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # ---------
+  # Container
+  # ---------
+  9 {
+    title = Container
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+    config {
+      colCount = 1
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Container
+              colPos = 10
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # --------------------------
+  # 5-spaltig (20/20/20/20/20)
+  # --------------------------
+  10 {
+    title = 5-spaltig (20/20/20/20/20)
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+    config {
+      colCount = 5
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+            3 {
+              name = Spalte 3
+              colPos = 12
+            }
+            4 {
+              name = Spalte 4
+              colPos = 13
+            }
+            5 {
+              name = Spalte 5
+              colPos = 14
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # -----------
+  # Bildgalerie
+  # -----------
+  11 {
+    title = Bildgalerie
+    # hier kein Flexform !!!
+    config {
+      colCount = 1
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Bildgalerie
+              colPos = 10
+              allowed = image
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # -------------------------
+  # Footer Inhalt aufklappbar
+  # -------------------------
+  12 {
+    title = Footer Inhalt aufklappbar
+    # hier kein Flexform !!!
+    config {
+      colCount = 1
+      rowCount = 2
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Überschrift
+              colPos = 10
+              allowed = header
+            }
+          }
+        }
+        2 {
+          columns {
+            1 {
+              name = Inhalt
+              colPos = 11
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # -----------------------------------
+  # 2-spaltig (25/75) - Personenkontakt
+  # -----------------------------------
+  13 {
+    title = 2-spaltig (25/75) - Personenkontakt
+    # hier kein Flexform
+    config {
+      colCount = 2
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # -----------------
+  # 2-spaltig (70/30)
+  # -----------------
+  14 {
+    title = 2-spaltig (70/30)
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+    config {
+      colCount = 2
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+          }
+        }
+      }
+    }
+  }
+
+  # -----------------
+  # 2-spaltig (33/66)
+  # -----------------
+  15 {
+    title = 2-spaltig (33/66)
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+    config {
+      colCount = 2
+      rowCount = 1
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Spalte 1
+              colPos = 10
+            }
+            2 {
+              name = Spalte 2
+              colPos = 11
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  # --------------
+  # Tabs Container
+  # --------------
+  uebb_bootstrap_tabs_container {
+    title = Tabs Container
+    description = Ein Element das mehrere Tabs enthält
+    flexformDS = FILE:EXT:unioltemplate/Configuration/FlexForms/Gridelements/bootstrap3_tabs_container.xml
+
+    config {
+      colCount = 1
+      rowCount = 1
+
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Tab Container Element
+              colPos = 0
+              allowed = gridelements_pi1
+             }
+          }
+        }
+      }
+    }
+  }
+
+  # -----------
+  # Tab Element
+  # -----------
+  uebb_bootstrap_tabs_tab {
+    title = Tab
+    description = Ein Tab für einen Tab-Container
+    flexformDS = FILE:EXT:gridelements_tester/Configuration/FlexForms/grid_flexform.xml
+
+    config {
+      colCount = 1
+      rowCount = 1
+
+      rows {
+        1 {
+          columns {
+            1 {
+              name = Tab Element
+              colPos = 0
+              }
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
